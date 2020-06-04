@@ -1,10 +1,10 @@
-package com.cn.userrpcdubboservice;
+package com.cn.userrpcdubboprovider;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UserRpcDubboServiceApplicationTests {
+class UserRpcDubboProviderApplicationTests {
 
     @Test
     void contextLoads() {

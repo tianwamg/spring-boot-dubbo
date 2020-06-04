@@ -17,7 +17,7 @@
 
     <modules>
         <module>user-rpc-dubbo-consumer</module>
-        <module>user-rpc-dubbo-service</module>
+        <module>user-rpc-dubbo-provider</module>
     </modules>
 
     <dependencyManagement>
