@@ -1,7 +1,7 @@
 package com.cn.userrpcdubboprovider.service.serviceImpl;
 
-import com.alibaba.dubbo.config.annotation.Service;
-import com.cn.userrpcdubboprovider.service.IUserService;
+import org.apache.dubbo.config.annotation.Service;
+import userservice.IUserService;
 
 @Service(interfaceClass = IUserService.class)
 public class IUserServiceImpl implements IUserService {

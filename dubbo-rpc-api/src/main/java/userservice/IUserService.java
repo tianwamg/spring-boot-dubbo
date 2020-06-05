@@ -1,4 +1,4 @@
-package com.cn.userrpcdubboprovider.service;
+package userservice;
 
 public interface IUserService {
 
