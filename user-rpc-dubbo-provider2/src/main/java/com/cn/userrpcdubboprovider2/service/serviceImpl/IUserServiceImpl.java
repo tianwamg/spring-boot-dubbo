@@ -1,4 +1,4 @@
-package com.cn.userrpcdubboprovider.service.serviceImpl;
+package com.cn.userrpcdubboprovider2.service.serviceImpl;
 
 import org.apache.dubbo.config.annotation.Service;
 import userservice.IUserService;
@@ -7,6 +7,6 @@ import userservice.IUserService;
 public class IUserServiceImpl implements IUserService {
     @Override
     public String getName(Integer id) {
-        return "dubbo";
+        return "dubbo2";
     }
 }
