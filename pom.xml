@@ -19,6 +19,7 @@
         <module>user-rpc-dubbo-consumer</module>
         <module>user-rpc-dubbo-provider</module>
         <module>dubbo-rpc-api</module>
+        <module>nacos-rpc-dubbo-provider</module>
     </modules>
 
     <dependencyManagement>
