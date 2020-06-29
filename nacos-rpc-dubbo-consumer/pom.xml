@@ -43,19 +43,22 @@
             <version>1.2.1</version>
         </dependency>
 
+        <!--sentinel 核心库-->
         <dependency>
             <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-core</artifactId>
             <version>1.7.2</version>
         </dependency>
+        <!-- sentinel 接入控制台 -->
         <dependency>
             <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-transport-simple-http</artifactId>
             <version>1.7.2</version>
         </dependency>
+        <!-- sentinel 对dubbo的支持 -->
         <dependency>
             <groupId>com.alibaba.csp</groupId>
-            <artifactId>sentinel-dubbo-adapter</artifactId>
+            <artifactId>sentinel-apache-dubbo-adapter</artifactId>
             <version>1.7.2</version>
         </dependency>
 
