@@ -40,6 +40,14 @@
 * nacos-rpx-dubbo-consumer
     - 基于nacos注册中心的服务消费者
     
+## 项目启动
+* zookeeper注册中心
+    - 首先启动zookeeper注册中心 ./zkServer.sh start
+    - 启动服务提供者provider
+    - 启动消费者
+* nacos注册中心
+    - 启动参考[地址](https://github.com/tianwamg/spring-cloud-alibaba)
+    - 其余步骤同上
 ### 参考地址
 * https://dubbo.apache.org/zh-cn/
 * https://github.com/apache/dubbo
